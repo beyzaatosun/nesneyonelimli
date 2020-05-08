@@ -1,0 +1,14 @@
+package nyat;
+
+public class Eyleyici implements Observable{
+
+    public boolean sogutucuAc(Observer observer)
+    {
+        return true;
+    }
+
+    public boolean sogutucuKapat(Observer observer)
+    {
+        return false;
+    }
+}
